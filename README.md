@@ -1,20 +1,38 @@
-# challenge
-Stori challenge
-Detalles:
+# Self-Paced Financial Transactions Challenge
 
-Procesamiento del archivo CSV:
-    Se lee el archivo CSV txns.csv que contiene las transacciones financieras.
-Cálculo de estadísticas:
-    Se calcula el saldo total, el número de transacciones por mes y el promedio de montos de débito y crédito por mes.
-Generación del resumen:
-    Se genera un resumen de estas estadísticas a partir de los datos procesados.
-Envío del correo electrónico:
-    Se genera un correo electrónico con el resumen de transacciones en formato HTML y se envía al destinatario especificado.
-    El diseño del correo electrónico se mejora utilizando HTML y CSS en línea.
-    Se incluye el logo de Stori en el correo electrónico.
-Integración ficticia con AWS:
-    Se simula una conexión con AWS S3 utilizando credenciales ficticias.
-    Se carga el resumen de transacciones en un bucket de S3 como una acción ficticia.
-Lógica ficticia de base de datos:
-    Se simula la interacción con una base de datos MySQL ficticia.
-    Se implementa la inserción de transacciones en la base de datos y la consulta por rango de fecha como acciones ficticias.
+Este proyecto fue desarrollado como un challenge autogestionado para procesar transacciones financieras desde un archivo CSV, calcular estadísticas relevantes y generar un resumen enviado por correo electrónico. Aunque fue diseñado en respuesta a un desafío propuesto, no se recibió feedback oficial.
+
+## Detalles del Proyecto
+
+- **Procesamiento de Archivo CSV**: Lectura del archivo `txns.csv` que contiene transacciones financieras.
+- **Cálculo de Estadísticas**: Cálculo del saldo total, número de transacciones por mes y promedio de montos de débito y crédito por mes.
+- **Generación de Resumen**: Creación de un resumen con las estadísticas calculadas.
+- **Envío de Correo Electrónico**: Envío del resumen de transacciones en formato HTML al destinatario especificado. El correo incluye el logo de Stori y utiliza HTML y CSS en línea para mejorar su diseño.
+- **Integración Simulada con AWS**: Simulación de una conexión con AWS S3 utilizando credenciales ficticias. Se carga el resumen de transacciones en un bucket de S3 como una acción ficticia.
+- **Lógica Simulada de Base de Datos**: Simulación de la interacción con una base de datos MySQL ficticia.
+
+## Tecnologías Utilizadas
+
+- Go
+- AWS S3 (simulado)
+- MySQL (simulado)
+
+## Estructura del Proyecto
+```bash
+. ├── TransactionDB.go ├── aws.go ├── email.go ├── helper.go ├── main.go ├── resumen.go ├── transaction.go ├── txns.csv ├── go.mod └── go.sum
+```
+
+## Notas
+
+Este proyecto fue una iniciativa personal para demostrar habilidades en el procesamiento de datos financieros y la integración con servicios externos. 
+
+
+## 👩🏻‍💻💻 Autora
+Desarrollado por @HuilenVilches 🤓 (aka SpookyCoincidence 🕸️🕷️)
+Golang Backend Developer 
+
+Este proyecto forma parte de un challenge técnico autogestionado, simulado como si fuera parte de un entorno productivo real, pero completamente desarrollado sin ejecución ni dependencias externas.
+
+## 📚 Licencia
+MIT License © 2024 – Libre para aprender, compartir y adaptar 🚀
+
