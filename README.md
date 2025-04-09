@@ -1,6 +1,6 @@
 # Self-Paced Financial Transactions Challenge
 
-Este proyecto fue desarrollado como un challenge autogestionado para procesar transacciones financieras desde un archivo CSV, calcular estadísticas relevantes y generar un resumen enviado por correo electrónico. Aunque fue diseñado en respuesta a un desafío propuesto, no se recibió feedback oficial.
+Este proyecto fue desarrollado como un challenge autogestionado para procesar transacciones financieras desde un archivo CSV, calcular estadísticas relevantes y generar un resumen enviado por correo electrónico. 
 
 ## Detalles del Proyecto
 
