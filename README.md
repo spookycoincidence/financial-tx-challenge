@@ -17,11 +17,6 @@ Este proyecto fue desarrollado como un challenge autogestionado para procesar tr
 - AWS S3 (simulado)
 - MySQL (simulado)
 
-## Estructura del Proyecto
-```bash
-. ├── TransactionDB.go ├── aws.go ├── email.go ├── helper.go ├── main.go ├── resumen.go ├── transaction.go ├── txns.csv ├── go.mod └── go.sum
-```
-
 ## Notas
 
 Este proyecto fue una iniciativa personal para demostrar habilidades en el procesamiento de datos financieros y la integración con servicios externos. 
